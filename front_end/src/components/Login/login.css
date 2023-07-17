@@ -1,0 +1,103 @@
+.App {
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: #DAEADC;
+}
+
+.auth-form-container {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 31px;
+  padding: 5rem;
+  margin: auto;
+  width: 50%;
+  padding: 150px;
+
+}
+
+@media screen and (max-width: 768px) {
+  .auth-form-container {
+    border: 1px solid white;
+    margin: 0.5rem;
+  }
+
+  button {
+    width: 100%;
+    margin-top: 30px;
+  }
+}
+
+label {
+  text-align: left;
+  padding: 0.25rem 0;
+  margin-left: auto;
+}
+
+input {
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: none;
+  border-radius: 15px;
+  background-color: #d9d9d9;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.login-btn {
+  border: none;
+  background-color: #41594C;
+  padding: 12px;
+  border-radius: 15px;
+  cursor: pointer;
+  color: white;
+  width: 150px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+}
+
+
+.link-btn {
+  background: none;
+  color: black;
+  text-decoration: underline;
+  padding: 12px;
+  border: none;
+}
+
+.Login-H2 {
+  color: #41594C;
+  padding-bottom: 100px;
+}
+
+.password-input-container {
+  position: relative;
+}
+
+.password-input-container input {
+  padding-right: 30px; /* Add space for the eye icon */
+}
+
+.password-toggle {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.password-toggle svg {
+  color: #41594c;
+  width: 18px;
+  height: 18px;
+}
+
+.regis-title{
+  color: #41594C;
+  padding-bottom: 100px;
+}

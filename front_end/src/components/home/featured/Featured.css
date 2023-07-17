@@ -1,0 +1,31 @@
+.featured .box {
+  box-shadow: 0 0 20px 0 rgb(112 121 138 / 18%);
+  border-radius: 6px;
+  text-align: center;
+  padding: 50px;
+  cursor: pointer;
+  background: rgba(250, 225, 188, 0.45);
+  border-radius: 39px;
+  align-items: center;
+  width: 100%;
+}
+.featured img {
+  width: 95px;
+  height: 95px;
+  
+}
+.featured h1 {
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 55px;
+  color: #41594C;
+}
+
+.img_rec{
+  
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 33px;
+  width: 100%
+}
